@@ -10,5 +10,6 @@ public class TestDateUtil {
         System.out.println(DateUtil.Date2Timestamp("2021-02-13 13:07:08"));
         System.out.println(DateUtil.addDays(1613192828000L,10));
         System.out.println(DateUtil.addDays("2021-02-13",10));
+        System.out.println(DateUtil.getHourFromTs(1613192828000L));
     }
 }
